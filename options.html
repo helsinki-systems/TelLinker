@@ -71,46 +71,23 @@
         </tr>
         <tr>
             <td align="right">
-                Tel Link Format:
+                RegEx to use:
             </td>
             <td>
-                <input type="text" id="telLinkFormat" style="border:1px solid #000;font-family:'Courier New'" />
+                <input type="text" id="helsinkiCallRegEx" style="border:1px solid #000;font-family:'Courier New'" />
             </td>
         </tr>
         <tr>
             <td align="right">
-                Link Text Format:
+                Protocol to add before regex match:
             </td>
             <td>
-                <input type="text" id="linkTextFormat" style="border:1px solid #000;font-family:'Courier New'" />
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td valign="middle" align="left">
-                <label><input type="checkbox" id="overrideLinks" /> Override existing links</label>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <span style="font-style:italic;font-weight:100;font-size:x-small;">{0} for original number, {1} for area code, {2} for three digit part, {3} for four digit part</span>
+                <input type="text" id="helsinkiCallProtocol" style="border:1px solid #000;font-family:'Courier New'" />
             </td>
         </tr>
         <tr>
             <td colspan="2" align="center">
                 <button id="saveButton">Save</button>
-            </td>
-        </tr>
-        <tr id="filteredDomainsTR">
-            <td colspan="2">
-                Filtered domains: <span style="position:relative;float:right;font-size:xx-small;font-style:italic;">click to delete</span><br />
-                <ul id="filteredDomainsList"></ul>
-            </td>
-        </tr>
-        <tr id="filteredURLSTR">
-            <td colspan="2">
-                Filtered urls: <span style="position:relative;float:right;font-size:xx-small;font-style:italic;">click to delete</span><br />
-                <ul id="filteredURLList"></ul>
             </td>
         </tr>
     </table>

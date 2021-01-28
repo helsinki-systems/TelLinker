@@ -1,6 +1,6 @@
 {
-  "name": "Tel Linker",
-  "version": "0.4.5",
+  "name": "Helsinki Tel Linker",
+  "version": "0.5.3",
   "manifest_version": 2,
   "description": "Locates telephone numbers on a page and converts them into clickable links.",
   "permissions": [
